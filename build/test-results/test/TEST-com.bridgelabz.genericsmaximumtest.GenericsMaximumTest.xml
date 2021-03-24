@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-24T16:38:09" hostname="DESKTOP-2DC5FKU" time="0.065">
+<testsuite name="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-24T16:49:08" hostname="DESKTOP-2DC5FKU" time="0.043">
   <properties/>
-  <testcase name="givenFloat_whenSecondNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.029"/>
-  <testcase name="givenFloat_whenThirdNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.004"/>
-  <testcase name="givenFloat_whenFirstNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.002"/>
-  <testcase name="givenString_whenThirdStringIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.002"/>
+  <testcase name="givenFloat_whenSecondNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.024"/>
+  <testcase name="givenFloat_whenThirdNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.003"/>
+  <testcase name="givenFloat_whenFirstNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.004"/>
+  <testcase name="givenString_whenThirdStringIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.001"/>
   <testcase name="givenIntegers_whenThirdNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.001"/>
-  <testcase name="givenString_whenFirstStringIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.002"/>
-  <testcase name="givenIntegers_whenFirstNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.001"/>
+  <testcase name="givenString_whenFirstStringIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.0"/>
+  <testcase name="givenIntegers_whenFirstNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.0"/>
   <testcase name="givenString_whenSecondStringIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.001"/>
   <testcase name="givenIntegers_whenSecondNumberIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
+  <system-out><![CDATA[5.2
+5.2
+5.2
+Plum
+5
+Plum
+5
+Plum
+5
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
