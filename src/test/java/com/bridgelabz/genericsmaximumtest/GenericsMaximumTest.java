@@ -7,55 +7,64 @@ public class GenericsMaximumTest {
 
     @Test
     public void givenIntegers_whenFirstNumberIsMax_ReturnSame() {
-        Integer result = GenericsMaximum.testMax(5, 3, 2);
+        GenericsMaximum<Integer> integerGenericsMaximum = new GenericsMaximum<Integer>(5,3,2);
+        Integer result = integerGenericsMaximum.testMax();
         Assertions.assertEquals(5, result);
     }
 
     @Test
     public void givenIntegers_whenSecondNumberIsMax_ReturnSame() {
-        Integer result = GenericsMaximum.testMax(3, 5, 2);
+        GenericsMaximum<Integer> integerGenericsMaximum = new GenericsMaximum<Integer>(3,5,2);
+        Integer result = integerGenericsMaximum.testMax();
         Assertions.assertEquals(5, result);
     }
 
     @Test
     public void givenIntegers_whenThirdNumberIsMax_ReturnSame() {
-        Integer result = GenericsMaximum.testMax(2, 3, 5);
+        GenericsMaximum<Integer> integerGenericsMaximum = new GenericsMaximum<Integer>(3,2,5);
+        Integer result = integerGenericsMaximum.testMax();
         Assertions.assertEquals(5, result);
     }
 
     @Test
     public void givenFloat_whenFirstNumberIsMax_ReturnSame() {
-        Float result = GenericsMaximum.testMax(5.2f, 3.2f, 2.2f);
+        GenericsMaximum<Float> floatGenericsMaximum = new GenericsMaximum<Float>(5.2f, 3.2f, 2.2f);
+        Float result = floatGenericsMaximum.testMax();
         Assertions.assertEquals(5.2f, result);
     }
 
     @Test
     public void givenFloat_whenSecondNumberIsMax_ReturnSame() {
-        Float result = GenericsMaximum.testMax(3.2f, 5.2f, 2.2f);
+        GenericsMaximum<Float> floatGenericsMaximum = new GenericsMaximum<Float>(3.2f, 5.2f, 2.2f);
+        Float result = floatGenericsMaximum.testMax();
         Assertions.assertEquals(5.2f, result);
     }
 
     @Test
     public void givenFloat_whenThirdNumberIsMax_ReturnSame() {
-        Float result = GenericsMaximum.testMax(2.2f, 3.2f, 5.2f);
+        GenericsMaximum<Float> floatGenericsMaximum = new GenericsMaximum<Float>(3.2f, 2.2f, 5.2f);
+        Float result = floatGenericsMaximum.testMax();
         Assertions.assertEquals(5.2f, result);
     }
 
     @Test
     public void givenString_whenFirstStringIsMax_ReturnSame() {
-        String result = GenericsMaximum.testMax("Banana", "Apple", "Plum");
+        GenericsMaximum<String> stringGenericsMaximum = new GenericsMaximum<String>("Plum", "Apple", "Banana");
+        String result = stringGenericsMaximum.testMax();
         Assertions.assertEquals("Plum", result);
     }
 
     @Test
     public void givenString_whenSecondStringIsMax_ReturnSame() {
-        String result = GenericsMaximum.testMax("Apple", "Banana", "Plum");
+        GenericsMaximum<String> stringGenericsMaximum = new GenericsMaximum<String>("Apple", "Plum", "Banana");
+        String result = stringGenericsMaximum.testMax();
         Assertions.assertEquals("Plum", result);
     }
 
     @Test
     public void givenString_whenThirdStringIsMax_ReturnSame() {
-        String result = GenericsMaximum.testMax("Apple", "Plum", "Banana");
+        GenericsMaximum<String> stringGenericsMaximum = new GenericsMaximum<String>("Banana", "Apple", "Plum");
+        String result = stringGenericsMaximum.testMax();
         Assertions.assertEquals("Plum", result);
     }
 }
