@@ -20,6 +20,15 @@ public class GenericsMaximum {
         return max;
     }
 
+    public String testMax(String x, String y, String z){
+        String max = x;
+        if(z.compareTo(max) > 0)
+            max = z;
+        if(y.compareTo(max) > 0)
+            max = y;
+        return max;
+    }
+
     public static void main(String[] args) {
         System.out.println("Welcome to Generics Maximum Program");
         GenericsMaximum genericsMaximum = new GenericsMaximum();

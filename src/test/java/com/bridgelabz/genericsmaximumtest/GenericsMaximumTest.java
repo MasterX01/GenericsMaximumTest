@@ -38,8 +38,26 @@ public class GenericsMaximumTest {
     }
 
     @Test
-    public void givenIntegers_whenThirdIntegerIsMax_ReturnSame() {
+    public void givenFloat_whenThirdNumberIsMax_ReturnSame() {
         Float result = genericsMaximum.testMax(2.2f, 3.2f, 5.2f);
         Assertions.assertEquals(5.2f, result);
+    }
+
+    @Test
+    public void givenString_whenFirstStringIsMax_ReturnSame() {
+        String result = genericsMaximum.testMax("Banana", "Apple", "Plum");
+        Assertions.assertEquals("Plum", result);
+    }
+
+    @Test
+    public void givenString_whenSecondStringIsMax_ReturnSame() {
+        String result = genericsMaximum.testMax("Apple", "Banana", "Plum");
+        Assertions.assertEquals("Plum", result);
+    }
+
+    @Test
+    public void givenString_whenThirdStringIsMax_ReturnSame() {
+        String result = genericsMaximum.testMax("Apple", "Plum", "Banana");
+        Assertions.assertEquals("Plum", result);
     }
 }
