@@ -2,36 +2,17 @@ package com.bridgelabz.genericsmaximumtest;
 
 public class GenericsMaximum {
 
-    public Integer testMax(Integer x, Integer y, Integer z){
-        int max = x;
+    public static <T extends Comparable<T>> T testMax(T x, T y, T z){
+        T max = x;
         if(y.compareTo(max) > 0)
             max = y;
         if(z.compareTo(max) > 0)
             max = z;
-        return max;
-    }
-
-    public Float testMax(Float x, Float y, Float z){
-        Float max = x;
-        if(y.compareTo(max) > 0)
-            max = y;
-        if(z.compareTo(max) > 0)
-            max = z;
-        return max;
-    }
-
-    public String testMax(String x, String y, String z){
-        String max = x;
-        if(z.compareTo(max) > 0)
-            max = z;
-        if(y.compareTo(max) > 0)
-            max = y;
         return max;
     }
 
     public static void main(String[] args) {
         System.out.println("Welcome to Generics Maximum Program");
-        GenericsMaximum genericsMaximum = new GenericsMaximum();
-        //System.out.println(genericsMaximum.testMax(1, 2, 3));
+        //System.out.println(testMax(1, 2, 3));
     }
 }
