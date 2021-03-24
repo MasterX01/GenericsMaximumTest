@@ -1,20 +1,14 @@
 package com.bridgelabz.genericsmaximumtest;
 
+import java.util.Arrays;
+
 public class GenericsMaximum<T extends Comparable<T>> {
 
-    T x, y, z;
     T max;
-    public GenericsMaximum(T x, T y, T z) {
-        this.x = x;
-        this.y = y;
-        this.z = z;
-    }
-    public T testMax(){
-        max = x;
-        if(y.compareTo(max) > 0)
-            max = y;
-        if(z.compareTo(max) > 0)
-            max = z;
+
+    public T testMax(T...args){
+        Arrays.sort(args);
+        max = args[args.length - 1];
         return max;
     }
 
