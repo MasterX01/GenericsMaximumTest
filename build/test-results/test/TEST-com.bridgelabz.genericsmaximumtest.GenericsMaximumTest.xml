@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-24T13:52:33" hostname="DESKTOP-2DC5FKU" time="0.036">
+  <properties/>
+  <testcase name="givenIntegers_whenFirstIntegerIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.026"/>
+  <testcase name="givenIntegers_whenSecondIntegerIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.004"/>
+  <testcase name="givenIntegers_whenThirdIntegerIsMax_ReturnSame()" classname="com.bridgelabz.genericsmaximumtest.GenericsMaximumTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
